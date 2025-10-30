@@ -1,0 +1,157 @@
+.project-organizer-container {
+	padding: 20px;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.project-organizer-header h2 {
+	margin: 0 0 20px 0;
+	font-size: 24px;
+}
+
+.project-selector {
+	margin-bottom: 20px;
+	padding: 15px;
+	background: var(--background-secondary);
+	border-radius: 8px;
+}
+
+.project-selector button {
+	margin-bottom: 10px;
+}
+
+.current-project {
+	margin: 0;
+	font-size: 14px;
+	color: var(--text-muted);
+}
+
+.project-controls {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.project-controls button {
+	padding: 8px 16px;
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.project-controls button:hover {
+	background: var(--interactive-accent-hover);
+}
+
+.tasks-container h3 {
+	margin: 0 0 15px 0;
+	font-size: 18px;
+}
+
+.task-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.task-item {
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+	padding: 12px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.task-item:hover {
+	background: var(--background-secondary-alt);
+	border-color: var(--interactive-accent);
+}
+
+.task-item.dragging {
+	opacity: 0.5;
+}
+
+.task-content {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.move-btn {
+	padding: 4px 8px;
+	background: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 12px;
+	min-width: 30px;
+}
+
+.move-btn:hover {
+	background: var(--interactive-hover);
+}
+
+.task-title {
+	flex: 1;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.task-title:hover {
+	color: var(--interactive-accent);
+	text-decoration: underline;
+}
+
+.empty-message {
+	text-align: center;
+	color: var(--text-muted);
+	padding: 40px 20px;
+	font-size: 14px;
+}
+
+.file-list {
+	max-height: 400px;
+	overflow-y: auto;
+}
+
+.file-item {
+	padding: 10px;
+	border-bottom: 1px solid var(--background-modifier-border);
+	cursor: pointer;
+}
+
+.file-item:hover {
+	background: var(--background-secondary);
+}
+
+.context-menu {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	padding: 10px;
+}
+
+.context-menu button {
+	padding: 8px 12px;
+	text-align: left;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.context-menu button:hover {
+	background: var(--interactive-hover);
+}
+
+.context-menu button.danger {
+	color: var(--text-error);
+}
+
+.context-menu button.danger:hover {
+	background: var(--background-modifier-error);
+}

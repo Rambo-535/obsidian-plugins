@@ -1,0 +1,10 @@
+{
+  "id": "project-organizer",
+  "name": "Project Organizer",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Visual project management with drag-and-drop task organization and archiving",
+  "author": "Your Name",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ai-title-generator",
+  "name": "AI Title Generator",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Generate and correct note titles using AI (supports OpenAI, Anthropic, and Ollama)",
+  "author": "Your Name",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

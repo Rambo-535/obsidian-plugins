@@ -1,0 +1,10 @@
+{
+  "id": "ai-grammar-corrector",
+  "name": "AI Grammar Corrector",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Correct grammar and typos in your notes using AI (supports OpenAI, Anthropic, and Ollama)",
+  "author": "Your Name",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}
